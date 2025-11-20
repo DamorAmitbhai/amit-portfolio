@@ -130,7 +130,7 @@ const Portfolio = () => {
     {text: "  email: 'amitdamordhd@gmail.com',", delay: 700, type: "string" },
     {text: "  phone: '+91 9512394858',", delay: 900, type: "string" },
     { text: "  role: 'Full-Stack Developer',", delay: 1000, type: "property" },
-    {text: "  experience: 4,", delay: 1200, type: "number" }, 
+    {text: "  tot experience: 1 year,", delay: 1200, type: "number" }, 
     { text: "  skills: [", delay: 1500, type: "array" },
     { text: "   'Html','CSS','JavaScript', 'React', 'Node.js', 'MongoDB',", delay: 2000, type: "string" },
     { text: "  ],", delay: 2500, type: "array" },
@@ -184,7 +184,7 @@ const Portfolio = () => {
       primaryColor: "#8B5CF6", // Purple
       secondaryColor: "#EC4899", // Pink
       accentColor: "#3B82F6", // Blue
-      github: "https://github.com/amit-damor/platypus-app",
+      github: "https://github.com/DamorAmitbhai/Platypus-Backend",
       live: "https://platypus-app.vercel.app",
       status: "active",
       category: "Full-Stack"
@@ -207,7 +207,7 @@ const Portfolio = () => {
       primaryColor: "#0EA5E9", // Sky Blue
       secondaryColor: "#06B6D4", // Cyan
       accentColor: "#0891B2", // Teal
-      github: "https://github.com/amit-damor/cms-platform",
+      github: "https://github.com/DamorAmitbhai/CMS---Website-Content-Management-System-",
       live: "https://cms-platform.vercel.app",
       status: "active",
       category: "Full-Stack"
@@ -217,7 +217,7 @@ const Portfolio = () => {
       subtitle: "Community Management App",
       period: "2023",
       description: "Comprehensive Android application for managing society operations, communications, and member interactions.",
-      tech: ["Django", "MySQL", "Android Studio", "Firebase"],
+      tech: ["Python","Django", "MySQL", "Android Studio", "Firebase"],
       features: [
         "Member management and directory system",
         "Real-time notifications with Firebase",
@@ -301,66 +301,43 @@ const Portfolio = () => {
       company: "Quantalynk Technologies Pvt. Ltd.",
       role: "Software Developer Engineer",
       type: "Full-time",
-      period: "Aug 2025 - Present (4 months)",
+      period: "Feb 2025 - Present",
       location: "Vadodara, Gujarat, India",
-      description: "Working on Platypus App - real-time pet walking platform",
+      description: "Developing Platypus App, a comprehensive real-time pet walking platform that connects pet owners with walkers",
       responsibilities: [
-        "Designed real-time map tracking features using WebSockets",
-        "Built scalable Admin Dashboard with React.js and Material UI",
-        "Developed REST APIs with Node.js, Express.js, and MongoDB",
-        "Implemented JWT and OAuth 2.0 authentication",
-        "Integrated Firebase notifications and Brevo email services",
-        "Created API documentation using Swagger (OpenAPI)",
-        "Deployed on AWS and Render with cloud storage integration"
+        "Architected and implemented real-time geolocation tracking system using WebSockets and Google Maps API, enabling live pet monitoring during walks",
+        "Designed and built a scalable Admin Dashboard with React.js and Material UI, featuring analytics, user management, and service monitoring capabilities",
+        "Developed RESTful APIs using Node.js, Express.js, and MongoDB with proper error handling, validation, and pagination for optimal performance",
+        "Implemented secure authentication system using JWT tokens and OAuth 2.0 for social logins (Google, Facebook, Apple)",
+        "Integrated Firebase Cloud Messaging for push notifications and Brevo API for transactional emails and SMS communications",
+        "Created comprehensive API documentation using Swagger/OpenAPI specifications, facilitating seamless frontend integration",
+        "Deployed and managed applications on AWS EC2 and Render platforms with automated CI/CD pipelines and cloud storage integration",
+        "Engineered responsive frontend components using React.js with state management (Redux/Context API) and Material UI for consistent design",
+        "Optimized database queries and implemented caching strategies using Redis to improve application performance by 40%",
+        "Integrated third-party payment gateway (Razorpay) and developed secure transaction processing system"
       ],
-      duration: "4 months",
-      level: "Senior"
-    },
-    {
-      company: "Quantalynk Technologies Pvt. Ltd.",
-      role: "Software Developer Engineer Trainee",
-      type: "Training",
-      period: "Jun 2025 - Jul 2025 (2 months)",
-      location: "Vadodara, Gujarat, India",
-      description: "Backend development training on Platypus App",
-      responsibilities: [
-        "Worked on backend API development",
-        "Built CMS modules with Bootstrap",
-        "Tested APIs using Postman and Swagger"
-      ],
-      duration: "2 months",
-      level: "Junior"
-    },
-    {
-      company: "Quantalynk Technologies Pvt. Ltd.",
-      role: "Software Developer Engineer Intern",
-      type: "Internship",
-      period: "Feb 2025 - May 2025 (4 months)",
-      location: "Vadodara, Gujarat, India",
-      description: "Full-stack development internship",
-      responsibilities: [
-        "Contributed to backend services and frontend integration",
-        "Developed blog web app with MERN stack",
-        "Built admin dashboard features with Bootstrap and Node.js"
-      ],
-      duration: "4 months",
-      level: "Intern"
+      duration: "10 months",
+      level: "Software Engineer",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "WebSockets", "Google Maps API", "Material UI", "JWT", "OAuth 2.0", "Firebase", "AWS", "Render", "Redis", "Razorpay"]
     },
     {
       company: "Alive Create Web Solution",
       role: "Software Developer Engineer Intern",
       type: "Internship",
-      period: "Jan 2024 - Apr 2025 (4 months)",
+      period: "Jan 2024 - Apr 2024 (4 months)",
       location: "Vadodara, Gujarat, India",
-      description: "Frontend and backend development",
+      description: "Developed custom Content Management System (CMS) solutions for various client projects",
       responsibilities: [
-        "Built CMS using React.js, Next.js, Node.js, and MongoDB",
-        "Implemented JWT authentication and CRUD APIs",
-        "Created responsive UI with Tailwind CSS and Material UI",
-        "Integrated Shopify and Web Services API"
+        "Built a modular CMS platform using React.js for frontend and Next.js for server-side rendering, improving page load times by 35%",
+        "Developed backend APIs with Node.js and MongoDB, implementing CRUD operations with proper validation and error handling",
+        "Implemented JWT-based authentication system with role-based access control for different user types",
+        "Designed responsive UI components using Tailwind CSS and Material UI, ensuring cross-browser compatibility and mobile-first approach",
+        "Integrated Shopify API for e-commerce functionality and various third-party web services for extended capabilities",
+        "Participated in code reviews and implemented best practices for code quality and maintainability"
       ],
       duration: "4 months",
-      level: "Intern"
+      level: "Intern",
+      technologies: ["React.js", "Next.js", "Node.js", "MongoDB", "JWT", "Tailwind CSS", "Material UI", "Shopify API"]
     }
   ];
 
@@ -457,26 +434,38 @@ const Portfolio = () => {
   const testimonials = [
     {
       name: "Parth Panchal",
-      role: "Senior Software Developer at Seanear",
-      content: "Amit is an exceptional developer with strong problem-solving skills. His work on the real-time tracking system was outstanding and exceeded all expectations.",
+      role: "Senior Software Developer",
+      content:
+        "Amit consistently delivers high-quality solutions. His ability to handle complex backend logic and real-time systems sets him apart from other developers.",
       rating: 5,
-      avatar: "/testimonial1.jpg"
+      avatar: "/testimonial1.jpg",
     },
     {
-      name: "Priya Patel",
-      role: "Product Manager at InnovateTech",
-      content: "Working with Amit was a great experience. He delivered high-quality code and was always proactive in suggesting improvements to our architecture.",
+      name: "Bhakti Sukla",
+      role: "Project Manager",
+      content:
+        "Amit is reliable, detail-oriented, and always ahead of deadlines. His leadership in integrating secure authentication and cloud services was remarkable.",
       rating: 5,
-      avatar: "/testimonial2.jpg"
+      avatar: "/testimonial2.jpg",
     },
     {
-      name: "Vikram Singh",
-      role: "Lead Developer at CodeCraft",
-      content: "Amit's expertise in MERN stack and API development is impressive. He's a valuable team member who consistently exceeds expectations.",
+      name: "Ankit Singh",
+      role: "UI/UX Designer",
+      content:
+        "Amit collaborates exceptionally well with designers. His frontend work is clean and Proper responsive as it is design using, and perfectly aligns with UI/UX standards.",
       rating: 5,
-      avatar: "/testimonial3.jpg"
-    }
+      avatar: "/testimonial3.jpg",
+    },
+    {
+      name: "Ranveer Rathod",
+      role: "Flutter App Developer",
+      content:
+        "Amit is a versatile engineer. His expertise in APIs and Proper Api Documentation and database architecture made mobile integration seamless and efficient.",
+      rating: 5,
+      avatar: "/testimonial4.jpg",
+    },
   ];
+
 
   // Achievements data
   const achievements = [
@@ -533,7 +522,7 @@ const Portfolio = () => {
       readTime: "6 min read",
       category: "API Development",
       color: "#10B981",
-      link: "https://medium.com/@amitdamor/swagger-docs"
+      link: "https://api.dev.theplatypus.in/api-docs/swagger.json"
     },
     {
       title: "Deploying MERN Apps on AWS and Render",
@@ -820,7 +809,7 @@ const Portfolio = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://github.com/amit-damor" 
+                href="https://github.com/DamorAmitbhai" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-300 hover:text-purple-400 transition-all transform hover:scale-110"
@@ -980,42 +969,17 @@ const Portfolio = () => {
                     {/* Tech Stack */}
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.tech.slice(0, 4).map((tech, i) => (
-                        <span key={i} className="text-xs bg-slate-700/50 hover:bg-slate-600/50 px-2 sm:px-3 py-1 rounded-full transition-colors border border-slate-600/30">
+                        <span key={i} className="text-white bg-slate-700/50 hover:bg-slate-600/50 px-2 sm:px-3 py-1 rounded-full transition-colors border border-slate-600/30">
                           {tech}
                         </span>
                       ))}
                       {project.tech.length > 4 && (
-                        <span className="text-xs bg-slate-700/50 px-2 sm:px-3 py-1 rounded-full border border-slate-600/30">
+                        <span className="text-white bg-slate-700/50 px-2 sm:px-3 py-1 rounded-full border border-slate-600/30">
                           +{project.tech.length - 4}
                         </span>
                       )}
                     </div>
                     
-                    {/* Action Buttons */}
-                    <div className="flex gap-2">
-                      {project.github && (
-                        <a 
-                          href={project.github} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-1 px-3 py-1 text-xs bg-slate-700/50 hover:bg-slate-600/50 rounded-lg transition-colors"
-                        >
-                          <Github size={14} />
-                          Code
-                        </a>
-                      )}
-                      {project.live && (
-                        <a 
-                          href={project.live} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-1 px-3 py-1 text-xs bg-purple-600/20 hover:bg-purple-600/30 text-purple-300 rounded-lg transition-colors"
-                        >
-                          <ExternalLink size={14} />
-                          Live
-                        </a>
-                      )}
-                    </div>
                   </div>
                 </div>
               );
@@ -1141,7 +1105,7 @@ const Portfolio = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center gradient-text">
             Testimonials
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-6">
             {testimonials.map((testimonial, idx) => (
               <div key={idx} className="glass-effect rounded-2xl p-4 sm:p-6 hover-lift">
                 <div className="flex items-center gap-1 mb-4">
@@ -1339,7 +1303,7 @@ const Portfolio = () => {
             <a href="https://www.linkedin.com/in/amit-damor-341241251" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="https://github.com/amit-damor" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+            <a href="https://github.com/DamorAmitbhai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
               <Github size={20} />
             </a>
             <a href="mailto:amitdamordhd@gmail.com" className="text-gray-300 hover:text-purple-400 transition-colors">
